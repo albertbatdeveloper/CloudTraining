@@ -1,0 +1,17 @@
+﻿@using CloudTraining.WebPortal.Models
+@model ChartResult
+<div class="jumbotron">
+    <h2>Entrenamiento mejorado en la nube</h2>
+    <p class="lead">Resultados del último cliente monitorizado</p>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <h2>Opinion del cliente</h2>
+        <div><img src="@Model.CognitiveUrl"/></div>
+    </div>
+    <div class="col-md-6">
+        <h2>Biometría del cliente</h2>
+        <div><img src="@Model.BiometricUrl"/></div>
+    </div>
+
+</div>
